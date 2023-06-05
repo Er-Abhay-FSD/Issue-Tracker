@@ -3,7 +3,7 @@
 ## Images
 
 ![screen](img/img1.png)
-![screen](img/img22.png)
+![screen](img/img2.png)
 ![screen](img/img3.png)
 ![screen](img/img4.png)
 
