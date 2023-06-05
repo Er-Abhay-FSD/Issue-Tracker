@@ -2,12 +2,10 @@
 
 ## Images
 
-[![Image 1](https://i.imgur.com/image1.jpg)](https://i.imgur.com/image1.jpg)
-[![Image 2](https://i.imgur.com/image2.jpg)](https://i.imgur.com/image2.jpg)
-[![Image 3](https://i.imgur.com/image3.jpg)](https://i.imgur.com/image3.jpg)
-[![Image 4](https://i.imgur.com/image4.jpg)](https://i.imgur.com/image4.jpg)
-[![Image 5](https://i.imgur.com/image5.jpg)](https://i.imgur.com/image5.jpg)
-[![Image 6](https://i.imgur.com/image6.jpg)](https://i.imgur.com/image6.jpg)
+![screen](img/img1.jpg)
+![screen](img/img22.jpg)
+![screen](img/img3.jpg)
+![screen](img/img4.jpg)
 
 This is an issue tracker application built using Node.js and EJS. It allows users to track issues/bugs for different projects. The application provides a user interface to create projects, view project details, filter issues, and create new issues.
 
