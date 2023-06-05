@@ -1,15 +1,10 @@
-const mongoose = require('mongoose');
-const url = 'mongodb://0.0.0.0:27017/db';
-// mongoose.connect('url') 
-mongoose.connect(url);
-const db=mongoose.connection;
+mongoose.connect(url)
+  .then(() => {
+    console.log('Connected to Database :: MongoDB');
+  })
+  .catch((error) => {
+    console.error('Error connecting to MongoDB:', error);
+  });
 
-//If any Error then Getting this Line
-db.on('error',console.error.bind(console,"Error connecting to MongoDB"));   
-
-
-db.once('open',()=>{
-    console.log("Connected to Database :: MongoDB ")
-});
-
-module.exports=db;  //Exports db
+const db = mongoose.connection;
+db.on('error', console.error.bind(console, 'MongoDB connection error:'));
