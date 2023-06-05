@@ -2,10 +2,10 @@
 
 ## Images
 
-![screen](img/img1.jpg)
-![screen](img/img22.jpg)
-![screen](img/img3.jpg)
-![screen](img/img4.jpg)
+![screen](img/img1.png)
+![screen](img/img22.png)
+![screen](img/img3.png)
+![screen](img/img4.png)
 
 This is an issue tracker application built using Node.js and EJS. It allows users to track issues/bugs for different projects. The application provides a user interface to create projects, view project details, filter issues, and create new issues.
 
